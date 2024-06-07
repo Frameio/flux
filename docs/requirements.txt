@@ -2,3 +2,4 @@ mkdocs                  == 1.1
 mkdocs-material         == 5.1.0
 mkdocs-redirects
 pymdown-extensions      == 7.0.0
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
